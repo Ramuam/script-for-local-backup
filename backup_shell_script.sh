@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Path to backup directory on external hard drive
-backup_dir="/media/chaitanya/Ventoy/b_v2_test"
+backup_dir="path/to/dir"
 
 # Path to source directory to be backed up
-source_dir="/home/chaitanya/Documents/bb"
+source_dir="path/to/dir"
 
 # Path to log file
-log_file="/home/chaitanya/Documents/bb/logg.csv"
+log_file="path/to/dir"
 
 # Wait for the external hard drive to be connected
 while [ ! -d "$backup_dir" ]; do
